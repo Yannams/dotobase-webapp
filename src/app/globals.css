@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Dotobase colors */
+  --color-primary: #0053CD;
+  --color-primary-container: #146BFB;
+  --color-background: #FAFCFF;
+  --color-surface: #FFFFFF;
+  --color-text-main: #0E1B2A;
+  --color-text-muted: #6E7C91;
+  --color-border: #E3EDF7;
+  --color-success: #22A06B;
+  --color-error: #D14343;
+  --color-accent: #2B8A9E;
+
+  /* Dotobase typography */
+  --font-sans: var(--font-manrope);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text-main);
+  font-family: var(--font-sans), sans-serif;
+}
